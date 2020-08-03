@@ -1,3 +1,12 @@
+/**
+ * NodeJS testing using Mocha & Chai
+ * ---------------------------------
+ * This is a test script which tests the api we made.
+ * Node: This script usses assert style syntax. In the
+ * future i'll add should and expect styles as well.
+ * 
+ */
+
 const app = require("../index");
 const chai = require("chai");
 const chaiHttp = require("chai-http");
@@ -9,7 +18,7 @@ chai.use(chaiHttp);
 // Describe the test
 describe("Server!", () => {
 
-  // Test get
+  // Test GET /
   it("welcomes user to the api", done => {
     chai
       .request(app)
@@ -22,7 +31,7 @@ describe("Server!", () => {
       });
   });
 
-  // test post by sending data
+  // test POST /add by sending data
   it("adds 2 numbers", done => {
     chai
       .request(app)

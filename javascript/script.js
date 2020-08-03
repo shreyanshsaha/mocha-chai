@@ -1,3 +1,19 @@
+/**
+ * Javascript tesing using Chai
+ * ----------------------------
+ * 
+ * Following code contains functions, functions 
+ * with callbacks and promises. All of them have the
+ * same functionality i.e tell is a number is even or odd.
+ * 
+ * We will test these functions in test/testUsingAssert.js
+ * 
+ * To setup: npm install
+ * To execute: npm test
+ * 
+ * @author Shreyansh Saha
+ */
+
 
 
 // Normal Function
@@ -19,6 +35,7 @@ function promiseIsEven(number){
   })
 }
 
+// Export the functions
 module.exports.isEven = isEven;
 module.exports.asyncIsEven = asyncIsEven;
 module.exports.promiseIsEven = promiseIsEven;
