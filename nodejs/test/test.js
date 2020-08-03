@@ -2,7 +2,7 @@
  * NodeJS testing using Mocha & Chai
  * ---------------------------------
  * This is a test script which tests the api we made.
- * Node: This script usses assert style syntax. In the
+ * Node: This script uses assert style syntax. In the
  * future i'll add should and expect styles as well.
  * 
  */
